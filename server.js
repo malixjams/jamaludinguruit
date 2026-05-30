@@ -295,7 +295,5 @@ const server = http.createServer(async (req, res) => {
   }
 });
 
-server.listen(PORT, () => {
-  console.log(`Portfolio guru informatika berjalan di http://localhost:${PORT}`);
-  console.log(`Login admin: ${readAuth().username}`);
-});
+// Export server agar bisa dijalankan oleh Vercel Serverless
+module.exports = server;
