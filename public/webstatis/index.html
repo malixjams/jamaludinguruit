@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio Guru Informatika</title>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">JamaludinGuru<span>IT</span></a>
+      <nav aria-label="Navigasi utama">
+        <a href="#home">Home</a>
+        <a href="#materi">Materi</a>
+        <a class="nav-highlight" href="#tugas">Tugas</a>
+        <a href="#portfolio">Portofolio</a>
+        <a href="#kontak">Kontak</a>
+        <a href="/admin.html">Admin</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">Portofolio Guru Informatika</p>
+          <h1>Media Pembelajaran Digital Modern</h1>
+          <p class="lead" data-profile="greeting">Membimbing siswa memahami logika, data, jaringan, dan karya digital yang bermanfaat.</p>
+          <div class="hero-actions" id="quickLinks"></div>
+        </div>
+        <div class="portrait-wrap">
+          <img id="profilePhoto" alt="Foto guru informatika" src="">
+        </div>
+      </section>
+
+      <section class="intro-band">
+        <div>
+          <p class="section-kicker">Profil</p>
+          <h2><span data-profile="name">Nama Guru Informatika</span></h2>
+          <p id="aboutText">Saya adalah guru informatika yang berfokus pada pembelajaran praktis.</p>
+        </div>
+        <div class="stats" id="stats"></div>
+      </section>
+
+      <section class="content-section" id="materi">
+        <div class="section-heading">
+          <h2>Materi Pembelajaran</h2>
+          <a href="#materi">Lihat Semua</a>
+        </div>
+        <div class="grid" id="materials"></div>
+      </section>
+
+      <section class="content-section muted" id="tugas">
+        <div class="section-heading">
+          <h2>Daftar Tugas Siswa</h2>
+          <a href="#tugas">Semua Tugas</a>
+        </div>
+        <div class="grid" id="assignments"></div>
+      </section>
+
+      <section class="content-section" id="portfolio">
+        <div class="section-heading">
+          <h2>Portofolio</h2>
+          <a href="#portfolio">Galeri</a>
+        </div>
+        <div class="portfolio-grid">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=900&auto=format&fit=crop" alt="Pembelajaran digital">
+          <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=900&auto=format&fit=crop" alt="Diskusi siswa">
+          <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?q=80&w=900&auto=format&fit=crop" alt="Belajar di kelas">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=900&auto=format&fit=crop" alt="Pemrograman">
+        </div>
+      </section>
+
+      <section class="contact-section" id="kontak">
+        <div>
+          <h2>Hubungi Saya</h2>
+          <p>Konsultasi pembelajaran, project sekolah, dan teknologi pendidikan.</p>
+        </div>
+        <div class="contact-list">
+          <a id="emailLink" href="#">Email</a>
+          <a id="phoneLink" href="#">Telepon</a>
+          <span data-profile="location">Indonesia</span>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>&copy; <span id="year"></span> Portofolio Guru Informatika</span>
+      <a href="/admin.html">Masuk Admin</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

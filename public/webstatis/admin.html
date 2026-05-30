@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="admin-body">
+    <main class="admin-shell">
+      <section class="login-panel" id="loginPanel">
+        <p class="section-kicker">Admin</p>
+        <h1>Masuk untuk mengedit portofolio</h1>
+        <form id="loginForm" class="stack">
+          <label>
+            User
+            <input name="username" autocomplete="username" value="admin" required>
+          </label>
+          <label>
+            Password
+            <input name="password" type="password" autocomplete="current-password" value="admin123" required>
+          </label>
+          <button type="submit">Masuk</button>
+          <p class="form-message" id="loginMessage"></p>
+        </form>
+      </section>
+
+      <section class="editor-panel hidden" id="editorPanel">
+        <div class="admin-topbar">
+          <div>
+            <p class="section-kicker">Editor</p>
+            <h1>Kelola isi landing page</h1>
+          </div>
+          <div class="admin-actions">
+            <a class="ghost-button" href="/">Lihat Halaman</a>
+            <button class="ghost-button" id="logoutButton" type="button">Keluar</button>
+          </div>
+        </div>
+
+        <form id="authForm" class="editor-form">
+          <section class="form-section">
+            <h2>Akun Admin</h2>
+            <div class="form-grid">
+              <label>User Baru <input name="username" autocomplete="username" required></label>
+              <label>Password Baru <input name="password" type="password" autocomplete="new-password" placeholder="Kosongkan jika tidak diganti"></label>
+              <label>Konfirmasi Password <input name="confirmPassword" type="password" autocomplete="new-password" placeholder="Ulangi password baru"></label>
+            </div>
+            <div class="save-bar">
+              <p class="form-message" id="authMessage"></p>
+              <button type="submit">Simpan Akun</button>
+            </div>
+          </section>
+        </form>
+
+        <form id="contentForm" class="editor-form">
+          <section class="form-section">
+            <h2>Profil</h2>
+            <div class="form-grid">
+              <label>Nama <input name="profile.name" required></label>
+              <label>Jabatan <input name="profile.title" required></label>
+              <label>Sekolah <input name="profile.school"></label>
+              <label>Lokasi <input name="profile.location"></label>
+              <label>Email <input name="profile.email" type="email"></label>
+              <label>Telepon <input name="profile.phone"></label>
+            </div>
+            <label>Kalimat pembuka <textarea name="profile.greeting" rows="3"></textarea></label>
+            <label>URL foto <input name="profile.photoUrl" type="url"></label>
+            <label>Tentang saya <textarea name="about" rows="5"></textarea></label>
+          </section>
+
+          <section class="form-section">
+            <div class="section-row">
+              <h2>Link Tombol Hero</h2>
+              <button type="button" class="small-button" data-add="heroLinks">Tambah</button>
+            </div>
+            <div id="heroLinksEditor" class="repeat-list"></div>
+          </section>
+
+          <section class="form-section">
+            <div class="section-row">
+              <h2>Materi</h2>
+              <button type="button" class="small-button" data-add="materials">Tambah</button>
+            </div>
+            <div id="materialsEditor" class="repeat-list"></div>
+          </section>
+
+          <section class="form-section">
+            <div class="section-row">
+              <h2>Tugas</h2>
+              <button type="button" class="small-button" data-add="assignments">Tambah</button>
+            </div>
+            <div id="assignmentsEditor" class="repeat-list"></div>
+          </section>
+
+          <section class="form-section">
+            <div class="section-row">
+              <h2>Link Sosial</h2>
+              <button type="button" class="small-button" data-add="links">Tambah</button>
+            </div>
+            <div id="linksEditor" class="repeat-list"></div>
+          </section>
+
+          <div class="save-bar">
+            <p class="form-message" id="saveMessage"></p>
+            <button type="submit">Simpan Perubahan</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

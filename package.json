@@ -1,0 +1,19 @@
+{
+  "name": "portfolio-guru-informatika",
+  "version": "1.0.0",
+  "description": "Landing page portofolio guru informatika dengan panel admin sederhana.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "teacher",
+    "informatika"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "serverless-http": "^4.0.0"
+  }
+}

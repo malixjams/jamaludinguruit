@@ -1,0 +1,88 @@
+{
+  "profile": {
+    "name": "Jamaludin Malik",
+    "title": "Guru Informatika",
+    "school": "SMK AL-HUDA KOTA KEDIRI",
+    "location": "Indonesia",
+    "greeting": "Membimbing siswa memahami logika, data, jaringan, dan karya digital yang bermanfaat.",
+    "photoUrl": "https://drive.google.com/file/d/1e3_2BBCd5f0vw-zuoBTSDWEajoespk1l/view?usp=sharing",
+    "email": "jamaludin.malix@gmail.com",
+    "phone": "+62 812-0000-0000"
+  },
+  "about": "Saya adalah guru informatika yang berfokus pada pembelajaran praktis, berpikir komputasional, pemrograman dasar, keamanan digital, dan pemanfaatan teknologi untuk memecahkan masalah nyata.",
+  "heroLinks": [
+    {
+      "label": "Google Classroom",
+      "url": "https://classroom.google.com/"
+    },
+    {
+      "label": "Drive Materi",
+      "url": "https://drive.google.com/"
+    },
+    {
+      "label": "Kontak WhatsApp",
+      "url": "https://wa.me/6281200000000"
+    }
+  ],
+  "materials": [
+    {
+      "title": "Algoritma dan Flowchart",
+      "description": "Pengantar berpikir logis, simbol flowchart, dan latihan menyusun langkah penyelesaian masalah.",
+      "url": "https://docs.google.com/"
+    },
+    {
+      "title": "Dasar HTML dan CSS",
+      "description": "Materi membuat halaman web sederhana, struktur dokumen, warna, layout, dan publikasi.",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn"
+    },
+    {
+      "title": "Keamanan Digital",
+      "description": "Panduan kata sandi, privasi, jejak digital, dan etika menggunakan internet.",
+      "url": "https://www.siberkreasi.id/"
+    },
+    {
+      "title": "sdsa",
+      "description": "dsad",
+      "url": "saddsad"
+    },
+    {
+      "title": "dsadgfdsg",
+      "description": "fdsfdsfs",
+      "url": "fdsfsd"
+    }
+  ],
+  "assignments": [
+    {
+      "title": "Tugas 1: Flowchart Aktivitas Harian",
+      "dueDate": "2026-06-10",
+      "description": "Buat flowchart untuk satu aktivitas harian dan unggah dalam format PDF.",
+      "url": "https://classroom.google.com/"
+    },
+    {
+      "title": "Tugas 2: Halaman Profil HTML",
+      "dueDate": "2026-06-17",
+      "description": "Buat halaman profil pribadi menggunakan HTML dan CSS dasar.",
+      "url": "https://classroom.google.com/"
+    },
+    {
+      "title": "dfs",
+      "dueDate": "",
+      "description": "fdsfdsf",
+      "url": "https://classroom.google.com/"
+    }
+  ],
+  "links": [
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/@TeklogiNetnew"
+    },
+    {
+      "label": "Instagram",
+      "url": "https://instagram.com/jams_malik"
+    },
+    {
+      "label": "TikTok",
+      "url": "https://tiktok.com/jamsmalix"
+    }
+  ]
+}
